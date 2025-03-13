@@ -41,6 +41,6 @@ public class PlatformMover1 : MonoBehaviour
     }
 
     public void ResetEnemies(){
-        trapUp.ResetToStart();
+        trapUp?.ResetToStart();
     }
 }
